@@ -77,7 +77,7 @@
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "sharedGlobals": [
       "{workspaceRoot}/babel.config.json",
-      "{workspaceRoot}/.github/workflows/ci.yml" 
+      "{workspaceRoot}/.github/workflows/ci.yml"
     ],
     "production": [
       "default",
@@ -88,5 +88,6 @@
       "!{projectRoot}/src/test-setup.[jt]s"
     ]
   },
-  "parallel": 1
+  "parallel": 1,
+  "nxCloudAccessToken": "OTRmNTUzMDEtMDA5OS00ZTUwLTlmNTYtNDM0NjBkNjJjZmE4fHJlYWQtd3JpdGU="
 }
